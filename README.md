@@ -29,12 +29,21 @@
                                         +--> Headless Chrome Screenshot
 ```
 
+## Deployment
+- work on a branch, merge into `master`, push both
+- from master merge into `gh-pages` branch and push.
+- check published in Github once uploaded.
+
 ## Phase 1:
-- [ ] Upload PDF from Google Docs and push up into GitHub.
-- [ ] Obtain download link of said PDF and add into teikmeout.com.
-- [ ] Obtain view link of said PDF.
-- [ ] Create HTML file that displays this document with the view link of the PDF.
+- [x] Upload PDF from Google Docs and push up into GitHub.
+- [x] Obtain download link of said PDF and add into teikmeout.com.
+- [x] Obtain view link of said PDF.
+- [x] Create HTML file that displays this document with the view link of the PDF.
+- [x] Add Download link on html file with ribbon
 - [ ] Deploy to Github pages.
+
+> Props to this article!
+> https://medium.com/@kekayan/display-your-resume-cv-pdf-in-website-using-github-73a088ac961d
 
 ## Phase 2:
 - [ ] create JSON for resume values.
