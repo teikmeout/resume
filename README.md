@@ -17,7 +17,7 @@
 - html
 - scss
 - react? will having HTML suffice for static hosting too?
-- github pages for hosting?
+- github pages for hosting and downloading PDF. 
 
 ## Architecture
 ```
@@ -29,16 +29,23 @@
                                         +--> Headless Chrome Screenshot
 ```
 
-## Expected Functionality
-- [ ] written in react, scss?? maybe just html and scss...
-- [ ] uses webpack to spit out static website and/or PDF
-- [ ] uses Chrome headless to implement screenshot image of resume and push into assets
+## Phase 1:
+- [ ] Upload PDF from Google Docs and push up into GitHub.
+- [ ] Obtain download link of said PDF and add into teikmeout.com.
+- [ ] Obtain view link of said PDF.
+- [ ] Create HTML file that displays this document with the view link of the PDF.
+- [ ] Deploy to Github pages.
 
-## Scripts
+## Phase 2:
+- [ ] create JSON for resume values.
+- [ ] create HTML + CSS version of resume using react + webpack.
+- [ ] create webpack script to create PDF.
+- [ ] create webpack script to run a chromium headless browser and create a screenshot of resume.
+
+### Scripts
 - `start`: run development server
 - `build`: build static assets and push into branch for Github Pages to use
 - `build:pdf`: run webpack script to build PDF from static site
 - `deploy`: run build script and 
 - `pre-commit`: run a linting process
 - `post-commit`: run a commit naming checker
-
